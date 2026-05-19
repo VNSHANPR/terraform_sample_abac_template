@@ -68,7 +68,7 @@ the entire PII surface.
 2. Databricks CLI (`databricks --version` ≥ 0.230)
 3. A configured Databricks CLI profile pointing at your workspace
    ```bash
-   databricks auth login --host https://e2-demo-field-eng.cloud.databricks.com \
+   databricks auth login --host <> \
      --profile e2-demo-field-eng
    ```
 4. A running SQL warehouse (any size) — note its ID
