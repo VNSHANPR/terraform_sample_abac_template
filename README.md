@@ -69,7 +69,7 @@ the entire PII surface.
 3. A configured Databricks CLI profile pointing at your workspace
    ```bash
    databricks auth login --host <> \
-     --profile e2-demo-field-eng
+     --profile <>
    ```
 4. A running SQL warehouse (any size) — note its ID
 5. `jq` and `python3` on the machine running `terraform apply`
