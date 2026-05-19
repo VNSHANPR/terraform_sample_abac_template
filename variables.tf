@@ -1,6 +1,6 @@
 variable "workspace_host" {
   type        = string
-  description = "Databricks workspace URL (E2-Demo-Field-Eng for this demo)."
+  description = "Databricks workspace URL."
   default     = ""
 }
 
@@ -31,7 +31,7 @@ variable "tag_prefix" {
 variable "warehouse_id" {
   type        = string
   description = "SQL warehouse ID used to execute SQL UDF and seed-data statements."
-  default     = "" # joerozo_warehouse in E2-Demo-Field-Eng
+  default     = "" # 
 }
 
 variable "seed_data" {
