@@ -1,8 +1,10 @@
 # ABAC on Databricks Unity Catalog — Terraform reference
 
 A Terraform-first, a reference for **Attribute-Based Access Control**
-on Databricks Unity Catalog, framed around 
-([Tritium Charging](https://tritiumcharging.com/)) 
+on Databricks Unity Catalog
+
+This is provided as a sample for understanding the terraform resources for databricks ABAC and is not an official documentation or best practice document. Please follow the official Terraform documentation below for more details : 
+
 
 **Note : Please always use the guidance from databricks Terraform resources 
 
